@@ -3,97 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Pizzaria Sabor da Casa - pizzas artesanais deliciosas.">
-    <title>Pizzaria Sabor da Casa</title>
+    <title>Sabor da Casa - Pizzaria</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="cabecalho">
-        <div class="container cabecalho-conteudo">
-            <h1>Pizzaria Sabor da Casa</h1>
-            <nav class="menu">
-                <a href="#inicio">Início</a>
-                <a href="#sobre">Sobre</a>
-                <a href="#cardapio">Cardápio</a>
-                <a href="#contato">Contato</a>
-            </nav>
+
+<header>
+    <h1>🍕 Sabor da Casa</h1>
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#pizzas">Pizzas</a>
+        <a href="#bebidas">Bebidas</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
+
+<main>
+    <section id="inicio" class="hero">
+        <div>
+            <h2>A melhor pizza da cidade!</h2>
+            <p>Pizza quentinha, saborosa e preparada com carinho.</p>
+            <a class="botao" href="#pizzas">Ver cardápio</a>
         </div>
-    </header>
+    </section>
 
-    <main>
-        <section id="inicio" class="hero">
-            <div class="container hero-conteudo">
-                <div class="hero-texto">
-                    <span class="destaque">🍕 Feita com carinho</span>
-                    <h2>Pizza quentinha e saborosa para você!</h2>
-                    <p>
-                        Massas artesanais, ingredientes selecionados e muito sabor.
-                        Escolha sua pizza favorita e aproveite cada pedaço.
-                    </p>
-                    <a class="botao" href="#cardapio">Ver cardápio</a>
-                </div>
-                <div class="hero-imagem">
-                    <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=1000&q=80"
-                         alt="Pizza artesanal com queijo e tomate">
-                </div>
-            </div>
-        </section>
+    <section id="sobre" class="secao">
+        <h2>Sobre nós</h2>
+        <p>Na Sabor da Casa, fazemos pizzas com ingredientes selecionados e muito sabor para você aproveitar com a família e os amigos.</p>
+    </section>
 
-        <section id="sobre" class="sobre">
-            <div class="container">
-                <h2>Sobre nós</h2>
-                <p>
-                    Na Pizzaria Sabor da Casa, preparamos cada pizza com ingredientes
-                    de qualidade e receitas especiais. Nosso objetivo é levar sabor
-                    e bons momentos para sua mesa.
-                </p>
-            </div>
-        </section>
-
-        <section id="cardapio" class="cardapio">
-            <div class="container">
-                <h2>Nosso cardápio</h2>
-                <div class="pizzas">
-                    <article class="pizza">
-                        <h3>🍕 Margherita</h3>
-                        <p>Molho de tomate, muçarela, tomate e manjericão.</p>
-                        <strong>R$ 39,90</strong>
-                    </article>
-
-                    <article class="pizza">
-                        <h3>🍕 Calabresa</h3>
-                        <p>Molho de tomate, muçarela, calabresa e cebola.</p>
-                        <strong>R$ 42,90</strong>
-                    </article>
-
-                    <article class="pizza">
-                        <h3>🍕 Quatro Queijos</h3>
-                        <p>Muçarela, provolone, parmesão e gorgonzola.</p>
-                        <strong>R$ 46,90</strong>
-                    </article>
-
-                    <article class="pizza">
-                        <h3>🍕 Frango com Catupiry</h3>
-                        <p>Frango desfiado, muçarela e catupiry cremoso.</p>
-                        <strong>R$ 44,90</strong>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <section id="contato" class="contato">
-            <div class="container">
-                <h2>Faça seu pedido</h2>
-                <p>📞 (86) 99999-9999</p>
-                <p>📍 Rua das Pizzas, 100 - Centro</p>
-            </div>
-        </section>
-    </main>
-
-    <footer class="rodape">
-        <div class="container">
-            <p>&copy; 2026 Pizzaria Sabor da Casa. Todos os direitos reservados.</p>
+    <section id="pizzas" class="secao">
+        <h2>🍕 Nossas Pizzas</h2>
+        <div class="cards">
+            <article class="card">
+                <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=800&q=80" alt="Pizza de calabresa">
+                <h3>Calabresa</h3>
+                <p>Molho, queijo, calabresa e cebola.</p>
+                <strong>R$ 35,00</strong>
+            </article>
+            <article class="card">
+                <img src="https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=800&q=80" alt="Pizza margherita">
+                <h3>Margherita</h3>
+                <p>Molho, queijo, tomate e manjericão.</p>
+                <strong>R$ 36,00</strong>
+            </article>
+            <article class="card">
+                <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=800&q=80" alt="Pizza quatro queijos">
+                <h3>Quatro Queijos</h3>
+                <p>Mussarela, provolone, parmesão e catupiry.</p>
+                <strong>R$ 40,00</strong>
+            </article>
+            <article class="card">
+                <img src="https://images.unsplash.com/photo-1594007654729-407eedc4be65?auto=format&fit=crop&w=800&q=80" alt="Pizza de frango com catupiry">
+                <h3>Frango com Catupiry</h3>
+                <p>Frango desfiado, queijo e catupiry.</p>
+                <strong>R$ 39,00</strong>
+            </article>
+            <article class="card">
+                <img src="https://images.unsplash.com/photo-1566843972142-a7fcb70de55a?auto=format&fit=crop&w=800&q=80" alt="Pizza portuguesa">
+                <h3>Portuguesa</h3>
+                <p>Presunto, queijo, ovo, cebola e azeitona.</p>
+                <strong>R$ 40,00</strong>
+            </article>
+            <article class="card">
+                <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80" alt="Pizza de bacon">
+                <h3>Bacon</h3>
+                <p>Queijo, bacon crocante e milho.</p>
+                <strong>R$ 38,00</strong>
+            </article>
+            <article class="card">
+                <img src="https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=800&q=80" alt="Pizza especial da casa">
+                <h3>Especial da Casa</h3>
+                <p>Uma combinação especial de sabores.</p>
+                <strong>R$ 45,00</strong>
+            </article>
+            <article class="card">
+                <img src="https://images.unsplash.com/photo-1593560708920-61dd98c8e3b4?auto=format&fit=crop&w=800&q=80" alt="Pizza de milho com bacon">
+                <h3>Milho com Bacon</h3>
+                <p>Queijo, milho e bacon.</p>
+                <strong>R$ 37,00</strong>
+            </article>
         </div>
-    </footer>
+    </section>
+
+    <section id="bebidas" class="secao">
+        <h2>🥤 Bebidas</h2>
+        <div class="bebidas">
+            <article class="bebida">
+                <img src="https://images.unsplash.com/photo-1629203849820-fdd70d49c38e?auto=format&fit=crop&w=500&q=80" alt="Pepsi">
+                <h3>Pepsi</h3>
+                <p>Refrigerante gelado.</p>
+                <strong>R$ 7,00</strong>
+            </article>
+            <article class="bebida">
+                <img src="https://images.unsplash.com/photo-1624552184280-9e9631bbeee9?auto=format&fit=crop&w=500&q=80" alt="Guaraná">
+                <h3>Guaraná</h3>
+                <p>Refrigerante gelado.</p>
+                <strong>R$ 7,00</strong>
+            </article>
+            <article class="bebida">
+                <img src="https://images.unsplash.com/photo-1581006852262-e4307cf6283a?auto=format&fit=crop&w=500&q=80" alt="Fanta">
+                <h3>Fanta</h3>
+                <p>Refrigerante gelado.</p>
+                <strong>R$ 7,00</strong>
+            </article>
+            <article class="bebida">
+                <img src="https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=500&q=80" alt="Suco de maracujá">
+                <h3>Suco de Maracujá</h3>
+                <p>Suco natural e refrescante.</p>
+                <strong>R$ 8,00</strong>
+            </article>
+        </div>
+    </section>
+
+    <section id="contato" class="secao contato">
+        <h2>📞 Contato</h2>
+        <p>Faça seu pedido e aproveite nossas pizzas!</p>
+        <p><strong>Telefone:</strong> (86) 99999-9999</p>
+        <p><strong>Endereço:</strong> Rua das Pizzas, 100</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Sabor da Casa - Pizzaria. Todos os direitos reservados.</p>
+</footer>
+
 </body>
 </html>
